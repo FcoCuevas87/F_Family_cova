@@ -1,7 +1,7 @@
 # F_Family_cova
-Codes to compute the $F$-family of covariance functions.
+Codes to compute the _F_-family of covariance functions.
 
-This repository have the files required to compute and reproduce the results of the paper regarding the F-Family paper (that we can not cite yet). 
+This repository have the files required to compute and reproduce the results of the paper regarding the _F_-Family paper (that we can not cite yet). 
 
 The data used for the paper is stored on the folder `data` whilst the folders `c` and `r` contains the C and R code needed to run the main files, respectively.
 
