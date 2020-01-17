@@ -1,5 +1,5 @@
 # _F_-Family of covariance functions
-Codes to compute the _F_-family of covariance functions.
+This repository contains the codes to compute the _F_-family of covariance functions.
 
 This repository have the files required to compute and reproduce the results of the paper regarding the _F_-Family paper (that we can not cite yet). 
 
