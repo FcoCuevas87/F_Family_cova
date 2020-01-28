@@ -1,5 +1,5 @@
 dat0 <- datos
-coord0 <- coord
+coord0 <- coord[set0,]
 RF <- list(X = dat0, longitude = coord0[,1], latitude = coord0[,2])
 Variog.raw.new <- Est.variog(RF,h.max = pi/3, l = 30)
 
