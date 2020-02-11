@@ -5,7 +5,7 @@ This repository have the files required to compute and reproduce the results of 
 
 The data used for the paper is stored on the folder `data` whilst the folders `c` and `r` contains the C and R code needed to run the main files, respectively.
 
-In order to compile the C files, the user must install the libraries GSL (https://www.gnu.org/software/gsl/) and ARB (http://arblib.org). After this, the user must compile the C files `matriz_cov.c` and `mat_pred.c` using the flags  `-lgsl -larb -lflint` as follows:
+In order to compile the C files, the user must install the libraries [GSL](https://www.gnu.org/software/gsl/) and [ARB](http://arblib.org). After this, the user must compile the C files `matriz_cov.c` and `mat_pred.c` using the flags  `-lgsl -larb -lflint` as follows:
 
 ```
 R CMD SHLIB ./c/matriz_cov.c  -lgsl -larb -lflint
