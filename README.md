@@ -18,6 +18,8 @@ The file `Investigating_anisotropy.R` computes and reproduces the variogram plot
 
 The file `CreateFigures.R` reproduces the figures and the animations included in the paper. The user can see the animated plots in the folder `Animations`.
 
+The global rank envelope provided in the paper can be reproduced using both `GRE_iso.R` and `GRE_subset.R`, where the test has been done under the isotropy assumption and for four different subregions. Even thoug the paper shows the results for the _F_-family of covariance functions, the code has been done for the three covariance functions used in the paper. The test was done using the GET package, available in this [link](https://github.com/myllym/GET/blob/master/R/GET-package.r).
+
 ## Authors
 
 * **No name displayed yet** - *Initial work*
